@@ -8,7 +8,8 @@ Many of the problems that numerical computation faces is that algorithms derived
 
 
 ## 4.2 Poor Conditioning    
-**Conditioning** is defined as the pace at which a function changes w.r.t. small changes in its inputs.  Those that explode on minor tweaks to their inputs are troublesome for scientific computing.  Let's take a look at a function: ![equation](https://latex.codecogs.com/gif.latex?f%28%5Ctextbf%7Bx%7D%29%20%3D%20%5Ctextbf%7BA%7D%5E%7B-1%7D%5Ctextbf%7Bx%7D).  When A is in the Real space and has eigenvalue decomposition, we say its **condition number** is ![equation](https://latex.codecogs.com/gif.latex?max_%7Bi%2Cj%7D%7C%5Cfrac%7B%5Clambda_%7Bi%7D%7D%7B%5Clambda_%7Bj%7D%7D%7C).  This value is the ratio of the magnitude of the largest and smallest eigenvalues.  You can expect that when this ratio is large, the matrix inversion is _very_ sensitive to error in the input.  
+**Conditioning** is defined as the pace at which a function changes w.r.t. small changes in its inputs.  Those that explode on minor tweaks to their inputs are troublesome for scientific computing.  Let's take a look at a function ![equation](https://latex.codecogs.com/gif.latex?f%28%5Ctextbf%7Bx%7D%29%20%3D%20%5Ctextbf%7BA%7D%5E%7B-1%7D%5Ctextbf%7Bx%7D).  When A is in the Real space and has eigenvalue decomposition, we say its **condition number** is:    
+ ![equation](https://latex.codecogs.com/gif.latex?max_%7Bi%2Cj%7D%7C%5Cfrac%7B%5Clambda_%7Bi%7D%7D%7B%5Clambda_%7Bj%7D%7D%7C).      This value is the ratio of the magnitude of the largest and smallest eigenvalues.  You can expect that when this ratio is large, the matrix inversion is _very_ sensitive to error in the input.  
 
 ## 4.3 Gradient-Based Optimization
 Optimiazation is apart of many deep learning operations.  You use it to minimize or maximize some function ![equation](https://latex.codecogs.com/gif.latex?f%28%5Ctextbf%7Bx%7D%29).  
