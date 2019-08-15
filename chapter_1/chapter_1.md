@@ -8,7 +8,7 @@ Deep learning resolves solving difficult problems by making hidden layers that d
 
 > Given the pixels, the first layer can easily identify edges, by comparing the brightness of neighboring pixels. Given the first hidden layer’s description of the edges, the second hidden layer can easily search for corners and extended contours, which are recognizable as collections of edges. Given the second hidden layer’s description of the image in terms of corners and contours, the third hidden layer can detect entire parts of specific objects, by finding specific collections of contours and corners. Finally, this description of the image in terms of the object parts it contains can be used to recognize the objects present in the image.
 
-![Overview of Machine Learning](machine_learning_overview.png)    
+![Overview of Machine Learning](https://github.com/nschampions2004/deep_learning_notes/chapter_1/images/machine_learning_overview.png)    
 
 ## Notes 1.1:
 - Part 1: Applied Math and Learning Basics

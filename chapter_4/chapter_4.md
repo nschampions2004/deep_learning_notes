@@ -5,3 +5,6 @@ Numerical computate refers to the process of solving mathematical problems by me
 
 ## 4.1 Overflow and Underflow
 Many of the problems that numerical computation faces is that algorithms derived theoretically don't have always have a one-to-one translation to a computer.  Rounding errors are a great example and can compound across multiple computations.  A form of rounding error is called **underflow** and this is where numbers near zero are rounded to zero.  The opposite is **overflow**.  Overflow occurs when large numbers are approximated as positive or negative infinity.  In the context of deep learning, the softmax function $$softmax(x_{i})$$
+
+
+This 
